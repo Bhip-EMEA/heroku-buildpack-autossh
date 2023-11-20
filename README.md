@@ -9,7 +9,7 @@ http://www.harding.motd.ca/autossh/
 ## Usage
 
 ```
-$ heroku create --buildpack https://github.com/kollegorna/heroku-buildpack-autossh
+$ heroku create --buildpack https://github.com/Bhip-EMEA/heroku-buildpack-autossh
 
 $ git push heroku master
 ...
@@ -78,7 +78,7 @@ In your project add a `.buildpacks` file.
 
 ```
 # .buildpacks
-https://github.com/kollegorna/heroku-buildpack-autossh.git
+https://github.com/Bhip-EMEA/heroku-buildpack-autossh.git
 https://github.com/heroku/heroku-buildpack-ruby.git#v138
 ```
 
@@ -90,7 +90,7 @@ $ git push heroku master
 
 -----> Fetching custom git buildpack... done
 -----> Multipack app detected
-=====> Downloading Buildpack: https://github.com/kollegorna/heroku-buildpack-autossh.git
+=====> Downloading Buildpack: https://github.com/Bhip-EMEA/heroku-buildpack-autossh.git
 =====> Detected Framework: autossh
 -----> Installing autossh
        Downloading autossh version 1.4e...
